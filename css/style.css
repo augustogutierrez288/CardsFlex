@@ -8,6 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     margin: 0;
@@ -16,7 +17,10 @@ body{
 
 .conteiner{
     display: flex;
-    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 70%;
 }
 
 .panel{
@@ -25,17 +29,16 @@ body{
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 80vh;
-    border: 2px solid turquoise;
+    height: 100%;
     border-radius: 50px;
     color: #fff;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
     position: relative;
-    -webkit-transform: all 700ms ease-in;
+    -webkit-transition: all 700ms ease-in;
 }
 
 .panel h3{
@@ -71,4 +74,26 @@ body{
 
 #panel5{
     background-image: url(https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+@media only screen and ( max-width: 992px){
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 90%;
+    }
+    .panel{
+        width: 100%;
+    }
+}
+
+@media only screen and ( max-width: 668px){
+
+}
+
+
+@media only screen and ( max-width: 576px){
 }
