@@ -10,7 +10,6 @@ body{
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     margin: 0;
     background-color: #fff;
 }
@@ -31,6 +30,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 25px;
     height: 100%;
     border-radius: 50px;
     color: #fff;
@@ -88,12 +88,4 @@ body{
     .panel{
         width: 100%;
     }
-}
-
-@media only screen and ( max-width: 668px){
-
-}
-
-
-@media only screen and ( max-width: 576px){
 }
