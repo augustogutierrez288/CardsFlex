@@ -4,3 +4,4 @@ El Codigo esta para ser copiado y pegado en su proyecto. Solo quedara a trabajo 
 Ejemplo en la clase .panel deberan darle un ancho al contenedor hijo por ejemplo de >= 30px.
 Espero que les guste mi aporte.
 
+Link para verlo en Distintos dispositivos. https://augustogutierrez288.github.io/tarjetas-flexibles/
